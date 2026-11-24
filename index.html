@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReUse Campus - Student Marketplace</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f8e9;
+            color: #254d32;
+        }
+
+        header {
+            background-color: #245c45;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #d4ffb2;
+            font-size: 35px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        section {
+            padding: 25px;
+            margin: 20px;
+            border-radius: 15px;
+            background-color: white;
+        }
+
+        #home {
+            background-color: #d8f3dc;
+            text-align: center;
+            padding: 55px 25px;
+        }
+
+        #home h2 {
+            color: #1b7048;
+            font-size: 30px;
+        }
+
+        #home p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        section h2 {
+            color: #e07832;
+        }
+
+        article {
+            background-color: #fff3df;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 12px;
+            border-left: 5px solid #75a85b;
+        }
+
+        article h3 {
+            color: #286747;
+        }
+
+        article:hover {
+            background-color: #e4f4dc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fffaf0;
+        }
+
+        th {
+            background-color: #367653;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #b7d5bb;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8f5e9;
+        }
+
+        li {
+            margin: 12px 0;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            border: 1px solid #8bb99b;
+            border-radius: 7px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        button {
+            background-color: #e58b38;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #286747;
+        }
+
+        a {
+            color: #26734d;
+        }
+
+        #home a {
+            display: inline-block;
+            background-color: #e58b38;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #home a:hover {
+            background-color: #245c45;
+        }
+
+        footer {
+            background-color: #245c45;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer h2 {
+            color: #d4ffb2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> ReUse Campus</h1>
+        <p>Give Old Things a New Life!</p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#products">Products</a> |
+            <a href="#how-it-works">How It Works</a> |
+            <a href="#sell">Sell an Item</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Buy Smart. Sell Easy. Reuse More.</h2>
+            <p>
+                A student marketplace for buying and selling second-hand college essentials.
+                Find useful items at affordable prices and give them a second life!
+            </p>
+            <p><a href="#products">Explore Products</a></p>
+        </section>
+
+        <section id="about">
+            <h2>About ReUse Campus</h2>
+            <p>
+                ReUse Campus is a student-to-student marketplace where college students
+                can buy and sell used books, calculators, lab coats, stationery, and other
+                useful college items. It helps students save money and encourages reuse.
+            </p>
+        </section>
+
+        <section id="products">
+            <h2>Available Products</h2>
+
+            <article>
+                <h3> Engineering Mathematics</h3>
+                <p>Category: Books</p>
+                <p>First-year engineering textbook in good condition.</p>
+                <p>Price: ₹250</p>
+                <p>Seller: A student</p>
+            </article>
+
+            <article>
+                <h3>Casio Calculator</h3>
+                <p>Category: Electronics</p>
+                <p>Scientific calculator, fully working.</p>
+                <p>Price: ₹500</p>
+                <p>Seller: A student</p>
+            </article>
+
+            <article>
+                <h3> Laboratory Coat</h3>
+                <p>Category: Lab Essentials</p>
+                <p>Clean lab coat, used for one semester.</p>
+                <p>Price: ₹180</p>
+                <p>Seller: A student</p>
+            </article>
+
+            <article>
+                <h3> Drawing Kit</h3>
+                <p>Category: Stationery</p>
+                <p>Geometry and engineering drawing instruments.</p>
+                <p>Price: ₹150</p>
+                <p>Seller: A student</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Product Price List</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Condition</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Engineering Mathematics</td>
+                        <td>Books</td>
+                        <td>Good</td>
+                        <td>₹250</td>
+                    </tr>
+                    <tr>
+                        <td>Casio Calculator</td>
+                        <td>Electronics</td>
+                        <td>Very Good</td>
+                        <td>₹500</td>
+                    </tr>
+                    <tr>
+                        <td>Laboratory Coat</td>
+                        <td>Lab Essentials</td>
+                        <td>Good</td>
+                        <td>₹180</td>
+                    </tr>
+                    <tr>
+                        <td>Drawing Kit</td>
+                        <td>Stationery</td>
+                        <td>Good</td>
+                        <td>₹150</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <ol>
+                <li><strong>Browse:</strong> Explore the available second-hand products.</li>
+                <li><strong>Choose:</strong> Read the product details and check its condition.</li>
+                <li><strong>Contact:</strong> Contact the seller to discuss the product.</li>
+                <li><strong>Exchange:</strong> Meet at a suitable campus location to exchange the item.</li>
+            </ol>
+        </section>
+
+        <section id="sell">
+            <h2>Sell Your Item</h2>
+            <p>
+                Have books or college supplies you no longer need?
+                Fill in the form to prepare your listing.
+            </p>
+
+            <form>
+                <p>
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" required>
+                </p>
+
+                <p>
+                    <label for="item">Item Name:</label><br>
+                    <input type="text" id="item" required>
+                </p>
+
+                <p>
+                    <label for="category">Category:</label><br>
+                    <select id="category">
+                        <option>Books</option>
+                        <option>Electronics</option>
+                        <option>Lab Essentials</option>
+                        <option>Stationery</option>
+                        <option>Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="price">Expected Price (₹):</label><br>
+                    <input type="number" id="price" min="1">
+                </p>
+
+                <p>
+                    <label for="condition">Product Condition:</label><br>
+                    <select id="condition">
+                        <option>Like New</option>
+                        <option>Very Good</option>
+                        <option>Good</option>
+                        <option>Fair</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="description">Product Description:</label><br>
+                    <textarea id="description" rows="4"></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+
+            <p><small>This demonstration form does not publish or save listings.</small></p>
+        </section>
+
+        <section>
+            <h2>Why Choose ReUse Campus?</h2>
+            <ul>
+                <li>Affordable products for students.</li>
+                <li>Helps reduce unnecessary waste.</li>
+                <li>Makes useful college supplies easier to find.</li>
+                <li>Encourages a helpful student community.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>ReUse Campus </h2>
+        <p>A little reuse goes a long way.</p>
+        <p>Student Marketplace Project</p>
+        <p>&copy; 2026 ReUse Campus</p>
+    </footer>
+
+</body>
+</html>
